@@ -15,7 +15,7 @@ NAMES
 """
 # Project name to be used in urls
 # Use dashes, not underscores!
-PROJECT_SLUG = 'lunchbox-test'
+PROJECT_SLUG = 'lunchbox'
 
 # Project name to be used in file paths
 PROJECT_FILENAME = 'lunchbox'
@@ -26,13 +26,13 @@ GITHUB_USERNAME = 'nprapps'
 REPOSITORY_URL = 'git@github.com:%s/%s.git' % (GITHUB_USERNAME, REPOSITORY_NAME)
 REPOSITORY_ALT_URL = None # 'git@bitbucket.org:nprapps/%s.git' % REPOSITORY_NAME'
 
-DEV_CONTACT = 'EDIT THIS IN APP_CONFIG.PY'
+DEV_CONTACT = 'jheasly (at) registerguard (daught) com'
 
 """
 DEPLOYMENT
 """
-PRODUCTION_S3_BUCKET = 'apps.npr.org'
-STAGING_S3_BUCKET = 'stage-apps.npr.org'
+PRODUCTION_S3_BUCKET = 'cloud.registerguard.com'
+STAGING_S3_BUCKET = 'uploads.registerguard.com'
 DEFAULT_MAX_AGE = 20
 
 FILE_SERVER_USER = 'ubuntu'
