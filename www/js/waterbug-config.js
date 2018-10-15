@@ -35,7 +35,7 @@ var fontShadowOffsetY = 0; // font shadow offset y
 var fontShadowBlur = 10; // font shadow blur
 
 // copyright options
-var orgName = 'Your News Organization';
+var orgName = 'The Register-Guard';
 var freelanceString = 'for ' + orgName;
 
 var copyrightOptions = {
@@ -62,14 +62,6 @@ var copyrightOptions = {
         sourceRequired: false,
         source: 'AP',
         display: 'AP' 
-    },
-    'getty': {
-        showPhotographer: true,
-        showSource: false,
-        photographerRequired: false,
-        sourceRequired: false,
-        source: 'Getty Images',
-        display: 'Getty' 
     },
     'thirdParty': {
         showPhotographer: true,
